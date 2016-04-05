@@ -1,0 +1,12 @@
+{
+    "name": "eric-chau/console-skill",
+    "require": {
+        "php": ">=7.0.0",
+        "webmozart/console": "~1.0.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jarvis\\Skill\\Console\\": "src/"
+        }
+    }
+}
