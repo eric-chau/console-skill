@@ -11,6 +11,9 @@ use Jarvis\Jarvis;
  */
 abstract class AbstractCommandHandler
 {
+    /**
+     * @var Jarvis
+     */
     protected $app;
 
     public function __construct(Jarvis $app)

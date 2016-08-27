@@ -24,7 +24,7 @@ abstract class AbstractApplicationConfig extends DefaultApplicationConfig
      */
     protected $settings;
 
-    public function __construct(array $settings, $name = null, $version = null)
+    public function __construct(array $settings = [], string $name = null, string $version = null)
     {
         parent::__construct($name, $version);
 
